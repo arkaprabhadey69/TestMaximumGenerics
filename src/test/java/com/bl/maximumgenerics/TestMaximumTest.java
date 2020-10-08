@@ -5,6 +5,8 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.nio.channels.FileLock;
+
 public class TestMaximumTest {
 
     @Test
@@ -75,6 +77,23 @@ public class TestMaximumTest {
         Integer max = TestMaximum.findAnyMax(8, 10, 9);
         Assert.assertThat(max, CoreMatchers.equalTo(10));
     }
+    @Test
+    public void if_any_type_max_return_true_integer_generic_class() {
+        Integer max = new TestMaximum<Integer>(6, 7, 8).findAnyMax();
+        Assert.assertThat(max, CoreMatchers.equalTo(8));
+    }
+    @Test
+    public void if_any_type_max_return_true_float_generic_class() {
+        Float max = new TestMaximum<Float>(6.33f, 7.52f, 7.51f).findAnyMax();
+        Assert.assertThat(max, CoreMatchers.equalTo(7.52F));
+    }
+    @Test
+    public void if_any_type_max_return_true_string_generic_class() {
+        String max = new TestMaximum<String>("Cheetah", "Jaguar", "Lion").findAnyMax();
+        Assert.assertThat(max, CoreMatchers.equalTo("Lion"));
+    }
+
+
 
 
 }
