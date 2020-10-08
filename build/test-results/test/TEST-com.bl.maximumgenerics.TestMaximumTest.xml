@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.maximumgenerics.TestMaximumTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-10-08T07:15:36" hostname="LAPTOP-JP0FR8LN" time="0.013">
+<testsuite name="com.bl.maximumgenerics.TestMaximumTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-10-08T07:31:13" hostname="LAPTOP-JP0FR8LN" time="0.034">
   <properties/>
-  <testcase name="if_third_string_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.004"/>
+  <testcase name="if_third_string_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.003"/>
   <testcase name="if_second_string_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_first_float_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_any_type_max_return_true_integer_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_integer_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.002"/>
+  <testcase name="if_any_type_max_return_true_integer_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.015"/>
+  <testcase name="if_integer_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.004"/>
   <testcase name="if_any_type_max_return_true_integer" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_second_float_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_string_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_string_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
   <testcase name="if_second_num_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_float_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_float_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.002"/>
   <testcase name="if_first_num_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_third_float_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
+  <testcase name="if_third_float_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_third_num_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_any_type_max_return_true_float_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_any_type_max_return_true_float_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
   <testcase name="if_any_type_max_return_true_float" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_any_type_max_return_true_string_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
-  <testcase name="if_any_type_max_return_true_string" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
-  <testcase name="if_first_string_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="if_any_type_max_return_true_string" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_first_string_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
+  <system-out><![CDATA[The maximum of 6,7,8 is 8
+The maximum among the list of variables provided is: 87
+The maximum of 8,10,9 is 10
+The maximum among the list of variables provided is: Zebra
+The maximum among the list of variables provided is: 87.89
+The maximum of 6.33,7.52,7.51 is 7.52
+The maximum of 10.12,8.34,9.98 is 10.12
+The maximum of Cheetah,Jaguar,Lion is Lion
+The maximum of Apple,Banana,Peach is Peach
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

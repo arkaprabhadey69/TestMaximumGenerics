@@ -1,11 +1,7 @@
 package com.bl.maximumgenerics;
-
-
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.nio.channels.FileLock;
 
 public class TestMaximumTest {
 
@@ -13,7 +9,6 @@ public class TestMaximumTest {
     public void if_first_num_max_return_first() {
         Integer max = TestMaximum.findMax(10, 8, 9);
         Assert.assertSame(10, max);
-        //Assert.assertThat(max,CoreMatchers.equalTo(10));
     }
 
     @Test
@@ -107,9 +102,4 @@ public class TestMaximumTest {
         Float max = TestMaximum.findAnyMax(41.44f,42.55f,43.90f,87.89f,31.11f);
         Assert.assertThat(max, CoreMatchers.equalTo(87.89F));
     }
-
-
-
-
-
 }

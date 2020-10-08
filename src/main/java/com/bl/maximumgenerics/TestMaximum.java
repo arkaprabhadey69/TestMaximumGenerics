@@ -55,28 +55,35 @@ public class TestMaximum<T extends Comparable<T>> {
             max = two;
         if (three.compareTo(max) > 0)
             max = three;
+        printMax(one, two, three, max);
         return max;
     }
 
     //Generic Method to find maximum of more than 3 variables of any type
     public static <T extends Comparable<T>> T findAnyMax(T... elements) {
         List<T> list = Arrays.asList(elements).stream().sorted().collect(Collectors.toList());
+        printMax(list.get(elements.length - 1));
         return list.get(elements.length - 1);
     }
 
+    //Method for printing max of three variables of any type
+    public static <T> void printMax(T one, T two, T three, T max) {
+        System.out.println("The maximum of " + one + "," + two + "," + three + " is " + max);
+    }
+
+    //Method for printing max of three or more variables of any type
+    public static <T> void printMax(T max) {
+        System.out.println("The maximum among the list of variables provided is: " + max);
+    }
+
+    //Method to return max of three variables provided
     public T findAnyMax() {
         return TestMaximum.findAnyMax(one, two, three);
     }
 
+
     public static void main(String[] args) {
         System.out.println("Welcome to test maximum");
-        System.out.println(findMax(7, 9, 10));
-        System.out.println(findMax(7.24f, 2.56f, 7.23f));
-        System.out.println(findAnyMax("Apple", "Peach", "Banana"));
-        System.out.println(new TestMaximum<Integer>(6, 7, 8).findAnyMax());
-        System.out.println(findAnyMax("Apple", "Peach", "Banana", "Zebra"));
-
-
     }
 
 }
