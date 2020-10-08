@@ -60,5 +60,21 @@ public class TestMaximumTest {
         String max = TestMaximum.findMax("Apple", "Banana", "Peach");
         Assert.assertThat(max, CoreMatchers.equalTo("Peach"));
     }
+    @Test
+    public void if_any_type_max_return_true_float() {
+        Float max = TestMaximum.findAnyMax(10.12f, 8.34f, 9.98f);
+        Assert.assertThat(max, CoreMatchers.equalTo(10.12F));
+    }
+    @Test
+    public void if_any_type_max_return_true_string() {
+        String max = TestMaximum.findAnyMax("Apple", "Banana", "Peach");
+        Assert.assertThat(max, CoreMatchers.equalTo("Peach"));
+    }
+    @Test
+    public void if_any_type_max_return_true_integer() {
+        Integer max = TestMaximum.findAnyMax(8, 10, 9);
+        Assert.assertThat(max, CoreMatchers.equalTo(10));
+    }
+
 
 }
