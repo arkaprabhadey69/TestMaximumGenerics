@@ -43,5 +43,22 @@ public class TestMaximumTest {
         Float max = TestMaximum.findMax(8.9998f, 8.9999f, 9.0001f);
         Assert.assertThat(max, CoreMatchers.equalTo(9.0001F));
     }
+    @Test
+    public void if_first_string_max_return_first() {
+        String max = TestMaximum.findMax("Peach", "Apple", "Banana");
+        Assert.assertThat(max, CoreMatchers.equalTo("Peach"));
+    }
+
+    @Test
+    public void if_second_string_max_return_second() {
+        String max = TestMaximum.findMax("Apple", "Peach", "Banana");
+        Assert.assertThat(max, CoreMatchers.equalTo("Peach"));
+    }
+
+    @Test
+    public void if_third_string_max_return_third() {
+        String max = TestMaximum.findMax("Apple", "Banana", "Peach");
+        Assert.assertThat(max, CoreMatchers.equalTo("Peach"));
+    }
 
 }

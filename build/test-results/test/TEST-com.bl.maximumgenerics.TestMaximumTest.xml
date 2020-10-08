@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.maximumgenerics.TestMaximumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-08T06:09:25" hostname="LAPTOP-JP0FR8LN" time="0.003">
+<testsuite name="com.bl.maximumgenerics.TestMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-08T06:20:12" hostname="LAPTOP-JP0FR8LN" time="0.007">
   <properties/>
-  <testcase name="if_first_num_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.003"/>
+  <testcase name="if_third_string_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.004"/>
+  <testcase name="if_second_string_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_first_float_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_second_float_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
+  <testcase name="if_second_num_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_first_num_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_third_float_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
+  <testcase name="if_third_num_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_first_string_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
