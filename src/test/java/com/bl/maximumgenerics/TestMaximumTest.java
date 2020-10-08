@@ -92,6 +92,22 @@ public class TestMaximumTest {
         String max = new TestMaximum<String>("Cheetah", "Jaguar", "Lion").findAnyMax();
         Assert.assertThat(max, CoreMatchers.equalTo("Lion"));
     }
+    @Test
+    public void if_string_max_return_third_multi_parameter() {
+        String max = TestMaximum.findAnyMax("Apple", "Banana", "Peach","Zebra");
+        Assert.assertThat(max, CoreMatchers.equalTo("Zebra"));
+    }
+    @Test
+    public void if_integer_max_return_third_multi_parameter() {
+        Integer max = TestMaximum.findAnyMax(41,42,43,87,31,78);
+        Assert.assertThat(max, CoreMatchers.equalTo(87));
+    }
+    @Test
+    public void if_float_max_return_third_multi_parameter() {
+        Float max = TestMaximum.findAnyMax(41.44f,42.55f,43.90f,87.89f,31.11f);
+        Assert.assertThat(max, CoreMatchers.equalTo(87.89F));
+    }
+
 
 
 

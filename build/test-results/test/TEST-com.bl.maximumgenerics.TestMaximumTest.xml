@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.maximumgenerics.TestMaximumTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-10-08T06:53:54" hostname="LAPTOP-JP0FR8LN" time="0.01">
+<testsuite name="com.bl.maximumgenerics.TestMaximumTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-10-08T07:15:36" hostname="LAPTOP-JP0FR8LN" time="0.013">
   <properties/>
-  <testcase name="if_third_string_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.005"/>
+  <testcase name="if_third_string_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.004"/>
   <testcase name="if_second_string_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_first_float_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_any_type_max_return_true_integer_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
+  <testcase name="if_any_type_max_return_true_integer_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_integer_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.002"/>
   <testcase name="if_any_type_max_return_true_integer" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_second_float_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_string_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_second_num_max_return_second" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_float_max_return_third_multi_parameter" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_first_num_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_third_float_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_third_float_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
   <testcase name="if_third_num_max_return_third" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_any_type_max_return_true_float_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
+  <testcase name="if_any_type_max_return_true_float_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <testcase name="if_any_type_max_return_true_float" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
-  <testcase name="if_any_type_max_return_true_string_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
+  <testcase name="if_any_type_max_return_true_string_generic_class" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
   <testcase name="if_any_type_max_return_true_string" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.001"/>
   <testcase name="if_first_string_max_return_first" classname="com.bl.maximumgenerics.TestMaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
